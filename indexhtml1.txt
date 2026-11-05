@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello dari VS code!</h1>
+</body>
+    <h2>Kalkulator Interaktif</h2>
+    
+    <!-- Input untuk angka pertama -->
+    <input type="number" id="angka1" placeholder="Masukkan angka pertama">
+    
+    <!-- Input untuk angka kedua -->
+    <input type="number" id="angka2" placeholder="Masukkan angka kedua">
+    
+    <br><br>
+
+    <!-- Tombol-tombol operasi matematika -->
+    <button onclick="tambah()">Tambah (+)</button>
+    <button onclick="kurang()">Kurang (-)</button>
+    <button onclick="kali()">Kali (×)</button>
+    <button onclick="bagi()">Bagi (÷)</button>
+
+    <br><br>
+
+    <h3>Hasil: <span id="hasil">0</span></h3>
+
+    <!-- Menghubungkan ke file JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
